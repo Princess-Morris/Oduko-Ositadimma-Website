@@ -15,6 +15,4 @@ export const mockData: IMockData[] = [
     //     audio: audio2
     // },
 
-   
-
     ]

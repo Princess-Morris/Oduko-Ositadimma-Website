@@ -1,5 +1,6 @@
 import React from "react"
 import AudioList from "./AudioList"
+import Listings from "./Listings"
 
 function Main() {
     return (
@@ -16,10 +17,15 @@ function Main() {
 
             </div>
 
-
             <div>
-                <AudioList />
+            <h2>Learn To Read These Igbo Books</h2>
+                <Listings />
             </div>
+
+
+            {/* <div>
+                <AudioList />
+            </div> */}
 
 
         </div>
