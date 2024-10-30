@@ -17,7 +17,8 @@
    }
 
    .app-body{
-    
+      color: #fff; 
+      font-family: 'Nunito', sans-serif;
    }
 
    h2{
@@ -78,13 +79,14 @@
    a{
     text-decoration: none;
     color: #fff;    
+    cursor: pointer;
    }
 
    ul li{
     padding: 0 10px;
    }
 
-   ul li:hover{
+   .nav-link:hover{
       color: cyan;
       cursor: pointer;
    }
@@ -95,6 +97,11 @@
    }
 
    .hero{
+   background-color: black;
+   background-image: url("../public/wallpaper.avif");
+   color: #fff; 
+   font-family: 'Nunito', sans-serif;
+   
     /* background-color: blue; */
     display: flex;
     justify-content: center;
@@ -131,6 +138,7 @@
     color: #fff;
     background-color: black;
     border: 2px solid #fff;
+    cursor: pointer;
    }
 
    .cards{
@@ -185,6 +193,7 @@
          margin: 0 auto;
          border-radius: 5px;
 
+
       
          .left-side-list-card{
             
@@ -221,7 +230,7 @@
          .arrow-style{
             font-size: 60px;
             padding: 20px;
-            /* color: cyan; */
+            color: black;
 
             &:hover{
                background-color: cyan;

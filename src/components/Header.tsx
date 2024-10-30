@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
-import Media from "./Media";
 import Nav from "./Nav";
+import Media from "./Media";
 
 function Header(){
     return(

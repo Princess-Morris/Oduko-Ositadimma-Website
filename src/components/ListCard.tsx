@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 interface IListCard {
     title: string;
     // book: string;
@@ -11,8 +13,11 @@ function ListCard({ title }: IListCard) {
             </div>
 
             <div className="right-side-list-card">
-                
-                <i className="fas fa-long-arrow-right arrow-style"></i>
+
+              <NavLink to="/books">
+              <i className="fas fa-long-arrow-right arrow-style"></i>
+              </NavLink>
+
             </div>
         </div>
     )
