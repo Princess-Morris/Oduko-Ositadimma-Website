@@ -15,10 +15,6 @@ export const mockData: IMockData[] = [
     //     audio: audio2
     // },
 
-    // {
-    //     id: "3",
-    //     title: "The palm wine taper",
-    //     audio: audio3
-    // }
+   
 
     ]
