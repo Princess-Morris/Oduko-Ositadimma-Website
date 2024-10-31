@@ -27,7 +27,12 @@ function Header() {
     return (
         <div className="header">
             <h1 className="logo" >
-                Oduk<span className="logo-span">oO</span>sitadimma
+                <span className="logo-span">O</span>
+                <span className="d-logo">d</span>
+                <span className="u-logo">u</span>
+                <span className="k-logo">k</span>
+                {/* uk */}
+                <span className="logo-span">o</span>
             </h1>
 
             <nav id="navbar"
