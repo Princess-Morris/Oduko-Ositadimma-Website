@@ -374,29 +374,6 @@
 
          }
 
-         .right-side-list-card{
-            /* display: inline-block;
-            overflow: hidden;
-            background-color: grey; */
-            /* flex: 1; */
-         }
-
-         /* .right-side-list-card .arrow-style{
-            animation: moveArrow 1s infinite ease-in-out;
-         }
-
-         @keyframes moveArrow{
-            0%{
-               transform: translateX(0);
-            }
-            50%{
-               transform: translateX(100px);
-            }
-            100%{
-               transform: translateX(0);
-            }
-         } */
-
          h2{
          font-family: 'Comfortaa', sans-serif;
          }
@@ -426,7 +403,7 @@
 /* About-page */
 
    .about{
-      margin-top: 110px;
+      margin-top: 95px;
       align-items: center;
       height: 100vh;
       width: 100%;
