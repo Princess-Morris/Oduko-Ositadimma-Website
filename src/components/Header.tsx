@@ -72,7 +72,7 @@ function Header() {
                             href="/books"
                             onClick={() => handleLinkClick("/books")}
                             >
-                                books
+                                Books
                         </a>
                     </li>
                     <li>

@@ -58,18 +58,7 @@
    }
 
    .logo{
-    /* width: 400px; */
-    /* height: 50px; */
-    /* padding: 10px; */
-    /* background-color: gray; */
     line-height: 0.8;
-
-    /* font-size: 40px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* border-radius: 55px 0px 15px 0px; */
-
     font-weight: 900;
 
     h5{
@@ -133,7 +122,7 @@
    }
 
    .last-logo{
-      color: #2E073F;
+      color: #821131;
    }
 
    /* Nav */
