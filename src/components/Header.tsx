@@ -94,7 +94,9 @@ function Header() {
             <div className="media">
                 <ul>
                     <li>
-                        <a href="">
+                        <a 
+                            target="_blank"
+                            href="https://www.facebook.com/oduko.williams?mibextid=LQQJ4d">
                             <i className="fab fa-facebook"></i>
                         </a>
                     </li>
