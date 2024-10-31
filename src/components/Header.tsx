@@ -16,7 +16,10 @@ function Header() {
     }, [])
 
     const handleLinkClick = (link: string) => {
-        window.location.href = link;
+        
+        if (!link.startsWith('#')){
+            window.location.href = link;
+        }
         setActiveLink(link)
 
         if (isMobileMenuOpen) {
@@ -79,8 +82,8 @@ function Header() {
                     </li>
 
                     <li>
-                        <a className={`nav-link ${activeLink === "/#footer" ? "active" : ""}`}
-                            //  href="/#footer"
+                        <a className={`nav-link ${activeLink === "#footer" ? "active" : ""}`}
+                             href="#footer"
                             onClick={() => handleLinkClick("#footer")}
                             >
                                 Reach Out

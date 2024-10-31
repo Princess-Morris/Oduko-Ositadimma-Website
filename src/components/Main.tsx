@@ -8,7 +8,7 @@ function Main() {
         <div>
             <div className="hero">
                 <h1>
-                    <div className="welcome">Welcome To</div> Maazi Oduko Ositadimma's Lib</h1>
+                    <div className="welcome">Welcome To</div> <span className="hero-name">Maazi Oduko Ositadimma's Lib </span> </h1>
 
                 <div>
                     <NavLink to="/books">
