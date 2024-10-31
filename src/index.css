@@ -1,5 +1,6 @@
 body{
-    background-color: #ccc;
+    /* background-color: #ccc; */
+    /* background-color: #fff; */
     /* background-color: black; */
 }
 
@@ -13,3 +14,7 @@ body{
     /* height: 100vh; */
    
 }
+
+html{
+    scroll-behavior: smooth;
+ }

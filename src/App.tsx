@@ -13,10 +13,9 @@ function App() {
   // const [activeLink, setActiveLink] = useState<string>("");
 
   return (
-    <div>
-      <div className='app-body'>
+    <div className='app-body'>
+      <div className='app-header'>
         <Header />
-        {/* <Main /> */}
       </div>
 
       <Routes>

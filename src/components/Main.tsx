@@ -20,8 +20,8 @@ function Main() {
             </div>
 
             <div>
-                <h2>Learn To Read These Igbo Books</h2>
-                <Listings />
+                {/* <h2>Learn To Read These Igbo Books</h2>
+                <Listings /> */}
             </div>
 
 

@@ -54,9 +54,9 @@ function Header() {
                 className={`nav ${isMobileMenuOpen ? "nav-mobile" : ""}`}>
                 <ul>
                     <li>
-                        <a className={`nav-link ${activeLink === "/home" ? "active" : ""}`}
-                            href="/home"
-                            onClick={()=> handleLinkClick("/home")}
+                        <a className={`nav-link ${activeLink === "/" ? "active" : ""}`}
+                            href="/"
+                            onClick={()=> handleLinkClick("/")}
                             >
                                 Home
                         </a>
@@ -79,9 +79,10 @@ function Header() {
                     </li>
 
                     <li>
-                        <a className={`nav-link ${activeLink === "/#footer" ? "active" : ""}`}
-                            href="/footer"
-                            onClick={() => handleLinkClick("/footer")}
+                        <a className="nav-link"
+                        // {`nav-link ${activeLink === "/#footer" ? "active" : ""}`}
+                        //     href="/#footer"
+                            onClick={() => handleLinkClick("#footer")}
                             >
                                 Contact
                         </a>
