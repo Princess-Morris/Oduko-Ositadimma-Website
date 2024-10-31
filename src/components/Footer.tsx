@@ -35,9 +35,7 @@ function Footer() {
       <div className="footer-contact">
        
         <span>Email: </span>
-        <a href="#">
         <span className="footer-email" >odukoositadimmawilliams@gmail.com</span>
-        </a>
       </div>
 
       <ul className="footer-media">

@@ -79,12 +79,11 @@ function Header() {
                     </li>
 
                     <li>
-                        <a className="nav-link"
-                        // {`nav-link ${activeLink === "/#footer" ? "active" : ""}`}
-                        //     href="/#footer"
+                        <a className={`nav-link ${activeLink === "/#footer" ? "active" : ""}`}
+                            //  href="/#footer"
                             onClick={() => handleLinkClick("#footer")}
                             >
-                                Contact
+                                Reach Out
                         </a>
                     </li>
 
