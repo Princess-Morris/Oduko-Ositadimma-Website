@@ -32,7 +32,7 @@ function Header() {
                 <span className="u-logo">u</span>
                 <span className="k-logo">k</span>
                 {/* uk */}
-                <span className="logo-span">o</span>
+                <span className="o-logo">o</span>
             </h1>
 
             <nav id="navbar"
