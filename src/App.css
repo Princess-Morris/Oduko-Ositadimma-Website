@@ -354,40 +354,31 @@
       margin-top: 150px;
    }
 
+/* About-page */
+
    .about{
       margin-top: 110px;
-      display: flex;
-      flex-direction: column;
-      /* border: 1px solid blue; */
-      padding: 20px 140px;
+      align-items: center;
       height: 100vh;
       width: 100%;
-
       background-color: black;
       background-image: url("../public/black-bg.jpeg") center center / contain no-repeat;
-      /* background-repeat: no-repeat; */
-      /* background-position: cover; */
-      display: flex;
-      /* font-family: ; */
-      /* flex-direction: column; */
-
+     
       color: #fff;
 
       p{
-         padding: 40px;
+         max-width: 900px;
+         padding: 40px 0px;
          line-height: 2rem;
          font-family: 'Nunito', sans-serif;
          font-size: 20px;
+         margin: 0 auto;
       }
    }
 
-.about-text{
-   margin: 50px;
-   color: #fff;
-   border: 2px solid blue;
-   /* height: 100vh; */
-   /* width: 100%; */
-}
+
+/* More-page */
+
 .more{
    /* margin-top: 110px; */
    display: flex;
