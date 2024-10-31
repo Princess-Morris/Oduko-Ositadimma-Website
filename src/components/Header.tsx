@@ -26,7 +26,9 @@ function Header() {
 
     return (
         <div className="header">
-            <div className="logo">
+            <a 
+            href="/"
+            className="logo">
             <h1>
                 <span className="first-logo">O</span>
                 <span className="d-logo">d</span>
@@ -46,7 +48,7 @@ function Header() {
                 <span className="b-logo">b</span>
                 <span className="last-logo">o</span>
             </h5>
-            </div>
+            </a>
 
             <nav id="navbar"
                 className={`nav ${isMobileMenuOpen ? "nav-mobile" : ""}`}>
