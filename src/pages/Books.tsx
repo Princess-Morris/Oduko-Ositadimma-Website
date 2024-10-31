@@ -2,7 +2,7 @@ import AudioList from "../components/AudioList";
 
 function Books(){
     return(
-        <div>
+        <div className="">
             <AudioList />
         </div>
     )

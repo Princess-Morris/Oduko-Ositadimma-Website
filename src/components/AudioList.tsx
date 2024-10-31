@@ -39,7 +39,7 @@ function AudioList() {
     }
 
     return (
-        <div>
+        <div className="audio-list-wrapper">
             <h2>Listen To Your Favorite Igbo books  </h2>
                 <div className="cards">
                     {/* <AudioComponent id="some string" title="title" audio="string" click={()=> {console.log('come here')}} idPlaying="fjfj"  /> */}
