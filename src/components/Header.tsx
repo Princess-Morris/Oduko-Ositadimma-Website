@@ -26,14 +26,27 @@ function Header() {
 
     return (
         <div className="header">
-            <h1 className="logo" >
-                <span className="logo-span">O</span>
+            <div className="logo">
+            <h1>
+                <span className="first-logo">O</span>
                 <span className="d-logo">d</span>
                 <span className="u-logo">u</span>
                 <span className="k-logo">k</span>
-                {/* uk */}
                 <span className="o-logo">o</span>
             </h1>
+            <h5>
+                <span className="l-logo">L</span>
+                <span className="e-logo">e</span>
+                <span className="a-logo">a</span>
+                <span className="r-logo">r</span>
+                <span className="n-logo">n</span>
+                
+                <span className="i-logo">I</span>
+                <span className="g-logo">g</span>
+                <span className="b-logo">b</span>
+                <span className="last-logo">o</span>
+            </h5>
+            </div>
 
             <nav id="navbar"
                 className={`nav ${isMobileMenuOpen ? "nav-mobile" : ""}`}>

@@ -62,6 +62,7 @@
     /* height: 50px; */
     /* padding: 10px; */
     /* background-color: gray; */
+    line-height: 0.8;
 
     /* font-size: 40px; */
     /* display: flex; */
@@ -70,6 +71,14 @@
     /* border-radius: 55px 0px 15px 0px; */
 
     font-weight: 900;
+
+    h5{
+    margin-left: 40px;
+    }
+   }
+
+   .first-logo{
+      color: cyan;
    }
 
    .d-logo{
@@ -87,6 +96,47 @@
    .o-logo{
       color: #2E073F;
    }
+
+/* logo-h5 */
+
+   .l-logo{
+     color: cyan;
+   }
+
+   .e-logo{
+     color: cyan; 
+   }
+
+   .a-logo{
+      color: #E85C0D;
+   }
+
+   .r-logo{
+      color: #E85C0D;
+   }
+
+   .n-logo{
+      color: #C7253E;
+   }
+
+
+   .i-logo{
+      color: #C7253E;
+   }
+
+   .g-logo{
+      color: #821131;
+   }
+
+   .b-logo{
+      color: #821131;
+   }
+
+   .last-logo{
+      color: #2E073F;
+   }
+
+   /* Nav */
 
    .nav{
     color: #fff;
@@ -294,9 +344,6 @@
     
    }
 
-   .logo-span{
-      color: cyan;
-   }
 
    @media screen and (max-width:768px) {
       .cards{
