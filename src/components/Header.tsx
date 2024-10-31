@@ -77,6 +77,17 @@ function Header() {
                                 Books
                         </a>
                     </li>
+
+                    {/* <li>
+                        <a className={`nav-link ${activeLink === "/#footer" ? "active" : ""}`}
+                            href="#"
+                            onClick={() => handleLinkClick("/footer")}
+                            >
+                                Reach Out
+                        </a>
+                    </li> */}
+
+
                     <li>
                         <a className={`nav-link ${activeLink === "/blogs" ? "active" : ""}`}
                             href="#"
@@ -85,6 +96,7 @@ function Header() {
                                 More
                         </a>
                     </li>
+                    
 
                 </ul>
                 <i className={`fas ${isMobileMenuOpen ? "fa-times" : "fa-bars"} mobile-nav-toggle`} onClick={toggleMobileMenu}></i>
@@ -102,7 +114,9 @@ function Header() {
                     </li>
 
                     <li>
-                        <a href="">
+                        <a 
+                            target="_blank"
+                            href="https://x.com/odukoositadimma?s=11">
                             <i className="fab fa-x"></i>
                         </a>
                     </li>
