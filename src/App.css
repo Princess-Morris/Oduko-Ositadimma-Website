@@ -261,8 +261,10 @@
    .card{
     background-image: url("../public/new-yam-img.jpeg");
     background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     width: 400px;
+    max-width: 600px;
     height: 280px;
     background-color: #808080;
     border-radius: 8px;
@@ -353,6 +355,7 @@
 
    .audio-list-wrapper{
       margin-top: 150px;
+      padding: 0px 20px;
    }
 
 /* About-page */

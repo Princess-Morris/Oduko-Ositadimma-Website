@@ -8,7 +8,7 @@ import React from "react";
 
 function AudioComponent({id, title, idPlaying, audio, click }: IAudioProps) {
     return (
-        <div>
+        <div >
             <h3>{title}</h3>
             <div className="card">
                 <audio id={`audio-${id}`} src={audio}></audio>
