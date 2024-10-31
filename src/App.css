@@ -426,4 +426,8 @@
 /* Footer-page */
 
 .footer{
+   background-color: black;
+   background-image: url("../public/foot-image.jpg");
+   color: #fff;
+   height: 200px;
 }

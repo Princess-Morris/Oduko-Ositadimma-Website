@@ -6,6 +6,7 @@ import Main from './components/Main';
 import { useState } from 'react';
 import About from './pages/About';
 import More from './pages/More';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/more' element={<More />} />
       </Routes>
+
+      <Footer />
+
     </div>
 
 
