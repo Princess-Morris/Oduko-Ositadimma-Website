@@ -10,7 +10,7 @@ function About(){
            </p>
 
            <p>
-           It is profound that how he honed his Igbo language skills through basic interactions with the elderly, focus group discussions and constant research. Oduko Ositadimma who would prefer to be addressed as Maàzị̄ , the Igbo equivalent of "Mr" is armed with a wealth of Igbo language, culture and tradition and seamlessly transfers same to anyone that comes into close contact with him in the bid to save our cherished Igbo language from going into extinction.
+           It is profound that how he honed his Igbo language skills through basic interactions with the elderly, focus group discussions and constant research. Oduko Ositadimma who would prefer to be addressed as "Maàzị̄ ", the Igbo equivalent of "Mr" is armed with a wealth of Igbo language, culture and tradition and seamlessly transfers same to anyone that comes into close contact with him in the bid to save our cherished Igbo language from going into extinction.
            </p> 
 
            <p>
