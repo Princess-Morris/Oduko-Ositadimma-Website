@@ -12,9 +12,8 @@ function AudioComponent({id, title, audio, date, narration, click, idPlaying }: 
             <div className="card">
                 {/* <audio id={`audio-${id}`} src={audio}></audio> */}
 
-                <div>
+                <div className="card-image-desc">
                 <img src={audioImg} 
-                className="card-image-desc"
                 />
                 </div>
 
