@@ -336,7 +336,7 @@
 
    .card-image-desc{
       max-width: 280px;
-      height: 180px;
+      min-height: 180px;
    }
 
    .card{
