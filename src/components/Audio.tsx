@@ -3,24 +3,43 @@ import PlayIcon from "./images/PlayIconAssetLams.svg"
 import PauseIcon from "./images/pause.png"
 import { IAudio, IAudioProps } from "./types";
 import React from "react";
+import audioImg from "../components/images/new_yam_img.jpeg";
 
 
 
-function AudioComponent({id, title, idPlaying, audio, click }: IAudioProps) {
+function AudioComponent({id, title, audio, date, narration, click, idPlaying }: IAudioProps) {
     return (
-        <div >
-            <h3>{title}</h3>
             <div className="card">
-                <audio id={`audio-${id}`} src={audio}></audio>
-                <div>
-                    <img src={idPlaying === id ? PauseIcon : PlayIcon}
-                        alt="play-pause-icon"
-                        width="70px"
-                        onClick={() => click(id)}
-                    />
-                </div>
-            </div>
+                {/* <audio id={`audio-${id}`} src={audio}></audio> */}
 
+                <div>
+                <img src={audioImg} 
+                width="280px" 
+                height="180px"
+                />
+                </div>
+
+                <div className="card-des">
+                    <div>
+                    <div className="card-title">{title} </div>
+                  <div className="card-date">{date} </div>
+                  <div className="card-narration">{narration} </div>
+                    </div>
+                 
+                  <div>
+
+                  <div 
+                  className="play-icon-wrapper"
+                  onClick={() => click(id)}
+                  >
+                <audio id={`audio-${id}`} src={audio}></audio>
+                  <i className={`play-icon fa-solid ${idPlaying === id ? "fa-pause" : "fa-play"}`}></i>
+
+                  </div>
+                  </div>
+
+                </div>
+                
         </div>
 
     )

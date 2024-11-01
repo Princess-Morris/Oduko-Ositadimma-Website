@@ -1,6 +1,5 @@
 import React from "react"
 import AudioList from "./AudioList"
-import Listings from "./Listings"
 import { NavLink } from "react-router-dom"
 
 function Main() {
@@ -18,17 +17,6 @@ function Main() {
                 </div>
 
             </div>
-
-            <div>
-                {/* <h2>Learn To Read These Igbo Books</h2>
-                <Listings /> */}
-            </div>
-
-
-            {/* <div>
-                <AudioList />
-            </div> */}
-
 
         </div>
 

@@ -7,12 +7,25 @@ export const mockData: IMockData[] = [
         id: "1",
         title: "New Yam Festival",
         audio: audio1,
+        date: "November 2, 2024",
+        narration: "Male Narration"
     },
 
     // {
     //     id: "2",
-    //     title: "About The Eke market day",
-    //     audio: audio2
+    //     title: "New Yam Festival",
+    //     audio: audio1,
+    //     date: "November 2, 2024",
+    //     narration: "Motherly Narration"
     // },
+
+    // {
+    //     id: "1",
+    //     title: "New Yam Festival",
+    //     audio: audio1,
+    //     date: "November 2, 2024",
+    //     narration: "Male Narration"
+    // },
+
 
     ]

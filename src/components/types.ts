@@ -1,9 +1,9 @@
 export interface IAudio{
     id: string;
     title: string;
-    // idPlaying: string | undefined;
-    audio: string
-    // click: any;
+    audio: string;
+    date: string;
+    narration: string;
 }
 
 
@@ -11,6 +11,8 @@ export interface IMockData{
     id: string;
     title: string;
     audio: string;
+    date: string;
+    narration: string;
 }
 
 export interface IAudioProps extends IAudio{ 
