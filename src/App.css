@@ -342,7 +342,7 @@
    @media screen and (max-width:991px){
       .card-image-desc{
          max-width: 200px;
-         max-height: 50px;
+         min-height: 50px;
       }
    }
 
