@@ -340,9 +340,14 @@
    }
 
    @media screen and (max-width:991px){
+
+      .card{
+        height: 160px;
+      }
+
       .card-image-desc{
-         max-width: 200px;
-         max-height: 50px;
+         max-width: 250px;
+         max-height: 150px;
       }
    }
 
