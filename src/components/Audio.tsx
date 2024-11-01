@@ -14,8 +14,7 @@ function AudioComponent({id, title, audio, date, narration, click, idPlaying }: 
 
                 <div>
                 <img src={audioImg} 
-                width="280px" 
-                height="180px"
+                className="card-image-desc"
                 />
                 </div>
 

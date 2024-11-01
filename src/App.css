@@ -334,6 +334,11 @@
       background-color: #ccc;
    }
 
+   .card-image-desc{
+      max-width: 280px;
+      height: 180px;
+   }
+
    .card{
     max-width: 600px;
     height: 190px;
