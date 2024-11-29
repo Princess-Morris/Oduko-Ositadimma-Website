@@ -4,6 +4,7 @@ import PauseIcon from "./images/pause.png"
 import { IAudio, IAudioProps } from "./types";
 import React from "react";
 import audioImg from "../components/images/new_yam_img.jpeg";
+import coloringImg from "../components/images/coloring_book.jpeg";
 
 
 
@@ -13,7 +14,7 @@ function AudioComponent({id, title, audio, date, narration, click, idPlaying }: 
                 {/* <audio id={`audio-${id}`} src={audio}></audio> */}
 
                 <div className="card-image-desc">
-                <img src={audioImg} 
+                <img src={coloringImg} 
                 width="100%"
                 height="100%"
                 />
