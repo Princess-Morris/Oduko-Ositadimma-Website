@@ -56,6 +56,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 
     /* margin-top: 30px; */
    }
@@ -286,7 +287,7 @@
    /* Audio and others */
 
    .audio-list-wrapper{
-      padding: 180px 20px;
+      padding: 180px 20px 10px;
       height: 100vh;
       background-color: #ccc;
    }
@@ -474,6 +475,10 @@
 
     .hero-name{
       font-size: 20px;
+   }
+
+   .audio-list-wrapper{
+      padding: 150px 20px 10px;
    }
 
    .cards{
