@@ -19,7 +19,7 @@ export const mockData: IMockData[] = [
         title: "New Yam Festival",
         audio: audio1,
         date: "December 17, 2024",
-        narration: "Female Narration",
+        narration: "Male Narration",
         background: yam
     },
 
