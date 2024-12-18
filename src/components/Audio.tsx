@@ -8,13 +8,15 @@ import coloringImg from "../components/images/coloring_book.jpeg";
 
 
 
-function AudioComponent({id, title, audio, date, narration, click, idPlaying }: IAudioProps) {
+function AudioComponent({id, title, audio, date, narration, click, idPlaying, background}: IAudioProps) {
     return (
             <div className="card">
                 {/* <audio id={`audio-${id}`} src={audio}></audio> */}
 
-                <div className="card-image-desc">
-                <img src={coloringImg} 
+                <div className="card-image-desc"
+                // style={{backgroundColor: background}}
+                >
+                <img src={background} 
                 width="100%"
                 height="100%"
                 />

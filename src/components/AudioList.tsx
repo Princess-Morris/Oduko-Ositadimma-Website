@@ -53,6 +53,7 @@ function AudioList() {
                             narration={upload.narration}
                             click={playAudio}
                             idPlaying={idPlaying}
+                            background={upload.background}
                              />
                         ))
                     }
