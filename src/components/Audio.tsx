@@ -14,7 +14,6 @@ function AudioComponent({id, title, audio, date, narration, click, idPlaying, ba
                 {/* <audio id={`audio-${id}`} src={audio}></audio> */}
 
                 <div className="card-image-desc"
-                // style={{backgroundColor: background}}
                 >
                 <img src={background} 
                 width="100%"

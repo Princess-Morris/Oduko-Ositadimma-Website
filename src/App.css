@@ -43,12 +43,6 @@
       padding: 0px 20px;
    }
 
-   @media (max-width: 991px){
-      .hero-name{
-         font-size: 20px;
-      }
-   }
-
    .header{
     background-color: black;
     color: #fff;
@@ -210,36 +204,7 @@
       color: #fff;
    }
 
-   @media (max-width: 991px){
-
-      .header{
-         justify-content: space-between;
-      }
-
-       .mobile-nav-toggle{
-         display: block;
-       }
-
-       .nav ul{
-         display: none;
-       }
-
-       .media{
-         display: none;
-       }
-
-       .nav-mobile ul{
-         display: block;
-       }
-
-       .nav-mobile ul li{
-         margin: 20px 0;
-         font-weight: 700;
-       }
-
-   }
-
-
+ 
    ul{
     list-style-type: none;
     display: flex;
@@ -320,45 +285,28 @@
 
    /* Audio and others */
 
-   .cards{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 20px; */
-   
-   }
-
-     
    .audio-list-wrapper{
       padding: 180px 20px;
       height: 100vh;
       background-color: #ccc;
    }
 
-   .card-image-desc{
-      max-width: 280px;
-      max-height: 180px;
-   }
-
-   @media screen and (max-width:991px){
-
-      .card{
-        height: 160px;
-      }
-
-      .card-image-desc{
-         max-width: 250px;
-         max-height: 150px;
-      }
-   }
-
    .card{
     max-width: 600px;
     height: 190px;
     display: flex;
-   /* background-color: yellow; */
+   background-color: #fff;
    gap: 10px;
    border-bottom: 1px solid #808080;
    margin: 0 auto;
+   margin-bottom: 30px;
+   }
+
+   .card-image-desc{
+      /* width: 280px; */
+      /* height: 180px; */
+      width: 50%;
+      background-color: aqua;
    }
 
    .card-des{
@@ -366,6 +314,7 @@
       flex-direction: column;
       padding: 10px 0px;
       justify-content: space-between;
+      width: 50%;
       
    }
 
@@ -399,14 +348,6 @@
       color: cyan;
       font-size: 25px;
    }
-
-
-   @media screen and (max-width:991px) {
-      .cards{
-       flex-direction: column;
-      }
-   }
-
 
 
 /* About-page */
@@ -494,7 +435,48 @@
 
 }
 
-@media (max-width: 991px){
-   /* .footer{
-   } */
+@media screen and (max-width: 991px){
+
+   .header{
+      justify-content: space-between;
+   }
+
+    .mobile-nav-toggle{
+      display: block;
+    }
+
+    .nav ul{
+      display: none;
+    }
+
+    .media{
+      display: none;
+    }
+
+    .nav-mobile ul{
+      display: block;
+    }
+
+    .nav-mobile ul li{
+      margin: 20px 0;
+      font-weight: 700;
+    }
+
+    .hero-name{
+      font-size: 20px;
+   }
+
+   .cards{
+      flex-direction: column;
+     }
+
+   .card{
+      height: 160px;
+    }
+
+    .card-image-desc{
+       /* max-width: 250px; */
+       /* max-height: 150px; */
+    }
+
 }
