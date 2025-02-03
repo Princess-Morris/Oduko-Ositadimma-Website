@@ -140,6 +140,14 @@ function Header() {
                             <i className="fab fa-linkedin"></i>
                         </a>
                     </li>
+
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://www.tiktok.com/@ositadimma.oduko">
+                            <i className="fab fa-tiktok"></i>
+                        </a>
+                    </li>
                 </ul>
 
             </div>
