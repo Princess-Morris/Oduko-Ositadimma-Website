@@ -538,3 +538,30 @@
 @media screen and (max-width: 430px){
   
 }
+
+
+/* More Page */
+
+.more-wrapper{
+   /* background-color: gray; */
+   margin-top: 90px;
+   height: 100%;
+   padding: 20px;
+   /* display: flex; */
+}
+
+.frame-wrapper{
+
+}
+
+/* .fram-header{
+   text-align: left;
+} */
+
+.frame-card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 50px 0px;
+   /* background-color: #ccc; */
+}

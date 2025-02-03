@@ -7,6 +7,7 @@ import { useState } from 'react';
 import About from './pages/About';
 import More from './pages/More';
 import Footer from './components/Footer';
+import Register from './pages/Register';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/books' element={<AudioList />} />
         <Route path='/about' element={<About />} />
         <Route path='/more' element={<More />} />
+        {/* <Route path='/register' element={<Register />} /> */}
       </Routes>
 
       <Footer />

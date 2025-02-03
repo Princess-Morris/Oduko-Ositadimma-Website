@@ -40,7 +40,7 @@ function AudioList() {
 
     return (
         <div className="audio-list-wrapper">
-                <div className="cards">
+                <div className="">
                     {/* <AudioComponent id="some string" title="title" audio="string" click={()=> {console.log('come here')}} idPlaying="fjfj"  /> */}
                     {
                         audioArray.map((upload, i) => (

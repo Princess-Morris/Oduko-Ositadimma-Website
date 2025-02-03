@@ -30,14 +30,14 @@ function AudioComponent({id, title, audio, date, narration, click, idPlaying, ba
                  
                   <div>
 
-                  <div 
+                  {audio ? <div 
                   className="play-icon-wrapper"
                   onClick={() => click(id)}
                   >
-                <audio id={`audio-${id}`} src={audio}></audio>
+                 <audio id={`audio-${id}`} src={audio}></audio> 
                   <i className={`play-icon fa-solid ${idPlaying === id ? "fa-pause" : "fa-play"}`}></i>
 
-                  </div>
+                  </div> : ""}
                   </div>
 
                 </div>

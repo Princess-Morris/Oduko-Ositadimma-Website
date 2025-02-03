@@ -1,5 +1,5 @@
 import { audio1, audio2, audio3 } from "./AudioFiles";
-import { coloring, yam } from "./background";
+import { coloring, yam, coloring_trace_and_learn } from "./background";
 
 import { IMockData } from "./types";
 
@@ -22,6 +22,15 @@ export const mockData: IMockData[] = [
         narration: "Male Narration",
         background: yam
     },
+
+    {
+        id: "3",
+        title: "Color, trace and learn",
+        audio: "",
+        date: "December 21, 2024",
+        narration: "Adventures in Igbo Language",
+        background: coloring_trace_and_learn
+    }
 
 
     ]

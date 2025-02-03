@@ -92,13 +92,22 @@ function Header() {
 
 
                     <li>
-                        <a className={`nav-link ${activeLink === "/blogs" ? "active" : ""}`}
-                            href="#"
+                        <a className={`nav-link ${activeLink === "/more" ? "active" : ""}`}
+                            href="/more"
                             onClick={() => handleLinkClick("/more")}
                             >
                                 More
                         </a>
                     </li>
+
+                    {/* <li>
+                        <a className={`nav-link ${activeLink === "/more" ? "active" : ""}`}
+                            href="/register"
+                            onClick={() => handleLinkClick("/register")}
+                            >
+                                Register
+                        </a>
+                    </li> */}
                     
 
                 </ul>
