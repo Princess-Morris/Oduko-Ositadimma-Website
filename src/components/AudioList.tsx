@@ -54,6 +54,7 @@ function AudioList() {
                             click={playAudio}
                             idPlaying={idPlaying}
                             background={upload.background}
+                            href= {upload.href}
                              />
                         ))
                     }

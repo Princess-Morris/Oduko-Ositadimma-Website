@@ -10,7 +10,8 @@ export const mockData: IMockData[] = [
         audio: audio2,
         date: "November 28, 2024",
         narration: "Male Narration",
-        background: coloring
+        background: coloring,
+        href: "https://www.amazon.com/dp/B0DP5ZRHS2"
     },
     
 
@@ -20,7 +21,8 @@ export const mockData: IMockData[] = [
         audio: audio1,
         date: "December 17, 2024",
         narration: "Male Narration",
-        background: yam
+        background: yam,
+        href: "https://www.amazon.com/dp/B0DQNV7NMK",
     },
 
     {
@@ -29,7 +31,8 @@ export const mockData: IMockData[] = [
         audio: "",
         date: "December 21, 2024",
         narration: "Adventures in Igbo Language",
-        background: coloring_trace_and_learn
+        background: coloring_trace_and_learn,
+        href: "https://www.amazon.com/dp/B0DQ5BHTXH"
     }
 
 

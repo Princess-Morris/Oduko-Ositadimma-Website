@@ -5,6 +5,7 @@ export interface IAudio{
     date: string;
     narration: string;
     background: string;
+    href: string;
 }
 
 
@@ -15,6 +16,7 @@ export interface IMockData{
     date: string;
     narration: string;
     background: string;
+    href: string;
 }
 
 export interface IAudioProps extends IAudio{ 
